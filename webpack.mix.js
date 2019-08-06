@@ -11,7 +11,7 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js('src/js/app.js', 'public/js')
+mix.js('src/js/app.js', 'js')
 	.scripts(['src/js/ui.js',
 		'src/js/state.js',
 		'src/js/game.js',
