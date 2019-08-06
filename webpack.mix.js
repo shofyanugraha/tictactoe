@@ -11,11 +11,11 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js('js/app.js', 'public/js')
-	.scripts(['js/ui.js',
-		'js/state.js',
-		'js/game.js',
-		'js/aiaction.js',
-		'js/ai.js',
-		], 'public/js/tictactoe.js')
-    .sass('scss/app.scss', 'public/css');
+mix.js('src/js/app.js', 'public/js')
+	.scripts(['src/js/ui.js',
+		'src/js/state.js',
+		'src/js/game.js',
+		'src/js/aiaction.js',
+		'src/js/ai.js',
+		], 'js/tictactoe.js')
+    .sass('src/scss/app.scss', 'css');
